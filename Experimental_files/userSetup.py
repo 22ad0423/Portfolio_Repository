@@ -1,1 +1,0 @@
-from coyoteMayaMenubarManager import coyoteMenubarEditor;coyoteMenubarEditor.main()
