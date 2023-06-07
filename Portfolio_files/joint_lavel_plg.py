@@ -58,7 +58,9 @@ def joint_lavel_disable():
 def joint_lavel_addon():
     # ボタン付きGUIの生成
     button_window = cmds.window("joint_lavel_Addon")
-    button_layout = cmds.columnLayout(adjustableColumn=True, parent=button_window)
+    button_layout = cmds.columnLayout(
+        adjustableColumn=True, parent=button_window
+    )
     # ボタンの生成
     Joint_lavel_enaable_button = cmds.button(
         label="Joint lavel enaable",
